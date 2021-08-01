@@ -55,6 +55,9 @@ public class Student {
 
 
 	public static void ListCourses() {
+		
+		// Great Implementation
+		
 		 Scanner input = new Scanner(System.in);
 		 System.out.println("1- Math 1. code: MTH");
 		 System.out.println("2- Circuits 2. code: ELC");
@@ -83,6 +86,12 @@ public class Student {
 	 }
 	 
 	 public static void ViewCourse() {
+		 
+		 // Here we got a problem...
+		 // Better to use 2D Arrays to store the course data and use printf or other thing to print this data
+		 // This will help us in assignment submitting. We submit assignment 2 in math and if we view the course again, we will still find
+		 // Assignment 2 not respondent --> so like the dummy data of users you created first you should create dummy data for courses..
+		 
 		 System.out.println("Please enter course code:");
 		 Scanner input = new Scanner(System.in);
 		 String code = input.next();
@@ -150,6 +159,9 @@ public class Student {
 		 }
 	 }
 	 public static void Registertoanewcourse() {
+		 
+		 // Creating Array Above make us use this function to add element to the array and then find the course in list courses..
+		 
 		 System.out.println("Please enter course code:");
 		 Scanner input = new Scanner(System.in);
 		 String code = input.next();
@@ -530,3 +542,6 @@ public class Student {
 			 }
 		 }
 	}
+// Briefly, your project is so great. The problem is creating the dummy data in an array and print it with printf, this is in assignments, grades and courses.
+// But it's a great effort keep going...
+
